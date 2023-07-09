@@ -1,0 +1,219 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: white;
+}
+.nav
+{
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    /* background-color: red; */
+    /* position: relative; */
+    z-index: 1;
+    display: flex;
+}
+.totalbox
+{position: absolute;
+    width: 500px;
+    height: 100%;
+    /* background-color: green; */
+   right: 0;
+   margin-right: 50px;
+   display: flex;
+   gap: 10px;
+   transition: all 0.5s linear;
+}
+.bot1
+{
+    width: 90px;
+    height: 50%;
+    margin-top: 15px;
+    /* background-color: rebeccapurple; */
+    /* margin-right: 9px; */
+    /* margin-left: 9px; */
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+
+}
+.logo
+{   width: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.botf
+{
+    width: 90px;
+    height: 50%;
+    margin-top: 15px;
+    /* background-color: rebeccapurple; */
+    margin-right: 9px;
+    /* margin-right: 9px; */
+    font-family: 'Teko', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+    transition: all 0.5s linear;
+}
+
+
+
+.container
+    {width: 100%;
+    height: 100vh;
+   background-image: url('./22898249_6615302.jpg');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    position: relative;
+    transition: all 0.5s linear;
+    
+    
+}
+.content
+{
+    width: 400px;
+    height: 500px;
+    /* background-color: green; */
+    /* From https://css.glass */
+background:#36394c2c;
+border-radius: 50px 0px 50px 0px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid #d1d2db8a;
+display: flex ;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+gap: 20px;
+color: #162636;
+transition: all 0.5s linear;
+   
+
+}
+h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    color: white;
+    
+}
+.box1
+{
+     width: 70%;
+    /* background-color: green; */
+    height: 56px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+}
+.input1
+{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+     border: none;
+    font-size: 20px;
+    color: white;
+    padding-right: 10px;
+}
+::placeholder
+{
+  color: white;
+  margin: 10px;
+  position: relative;
+}
+.box2
+{
+    width: 70%;
+    /* background-color: green; */
+    /* height: 0px; */
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#label2
+{
+    position: absolute;
+    right: 0;
+}
+.box3
+{
+    width: 70%;
+    background-color: #162636;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+.parentcontent
+{  width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+   transition: all 0.5s linear;
+}
+.fa
+{
+    color: #162636 ;
+}
+.content1
+{
+    width: 700px;
+    height: 600px;
+    /* background-color: green; */
+    /* From https://css.glass */
+background:#36394c2c;
+border-radius: 50px 0px 50px 0px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid #d1d2db8a;
+display: flex ;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+gap: 20px;
+color: #162636;
+transition: all 0.5s linear;
+}
+.fa-eye
+{
+    color: #162636;
+}
+.botf:hover{
+    background-color: #162636;
+}
+
